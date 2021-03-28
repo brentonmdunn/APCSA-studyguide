@@ -45,7 +45,7 @@ Arithmetic expressions: `+`, `-`, `*`, `/`, and `%`
 
 If operation uses two `int` values, then will evaluate to an `int`. If operation has at least 1 `double` value, it will evaluate to a `double`.
 
-Dividing by 0 will result in an `ArethmeticException` to occur.
+Dividing by 0 will result in an `ArithmeticException` to occur.
 
 ## 1.4 Compound Assignment Operators
 
