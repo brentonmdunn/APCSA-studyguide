@@ -66,21 +66,14 @@ Nested `if` statements consist of `if` statements within `if` statements.
 
 Logical operators `!` (note), `&&` (and), and `||` (or) are used with Boolean values and evaluate to a Boolean value.
 
-|  `P`  |  `Q`  | `P && Q` |
+|  P  |  Q  | P && Q |
 | :---: | :---: | :------: |
 | true  | true  |   true   |
 | false | true  |  false   |
 | true  | false |  false   |
 | false | false |  false   |
 
-|  `P`  |  `Q`  | P \|\| Q |
-| :---: | :---: | :------: |
-| true  | true  |   true   |
-| false | true  |   true   |
-| true  | false |   true   |
-| false | false |  false   |
-
-|  `P`  |  `Q`  | `P || Q` |
+|  P  |  Q  | P \|\| Q |
 | :---: | :---: | :------: |
 | true  | true  |   true   |
 | false | true  |   true   |
@@ -109,7 +102,7 @@ Example: `!(x < 3 && y > 2)` --> `!(x < 3) || !(y > 2)` --> `x >= 3 || y <= 2`
 
 Truth tables can be used to prove Boolean identities. Equivalent Boolean expressions will evaluate to the same value in all cases.
 
-|  `a`  |  `b`  | `!(a && b)` | `!a || !b` |
+|  a  |  b  | !(a && b) | !a \|\| !b` |
 | :---: | :---: | :---------: | :--------: |
 | true  | true  |    false    |   false    |
 | false | true  |    true     |    true    |
