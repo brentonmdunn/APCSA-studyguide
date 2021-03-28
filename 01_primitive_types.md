@@ -49,7 +49,7 @@ Dividing by 0 will result in an `ArithmeticException` to occur.
 
 ## 1.4 Compound Assignment Operators
 
-Compound operators: `+=`, `−=`, ``*=`, `/=`, and `%=`
+Compound operators: `+=`, `−=`, `*=`, `/=`, and `%=`
 
 Increment operator: ++
 
