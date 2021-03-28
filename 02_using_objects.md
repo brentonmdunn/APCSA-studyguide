@@ -69,7 +69,7 @@ Set methods are methods used to set certain instance variables. Example:
 
 ```java
 public void setLenth(int newLength) {
-	length = newLength;
+    length = newLength;
 }
 ```
 
