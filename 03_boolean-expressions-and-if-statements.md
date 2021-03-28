@@ -73,11 +73,11 @@ Logical operators `!` (note), `&&` (and), and `||` (or) are used with Boolean va
 | true  | false |  false   |
 | false | false |  false   |
 
-|  `P`  |  `Q`  | `P && Q` |
+|  `P`  |  `Q`  | `P || Q` |
 | :---: | :---: | :------: |
 | true  | true  |   true   |
-| false | true  |  false   |
-| true  | false |  false   |
+| false | true  |   true   |
+| true  | false |   true   |
 | false | false |  false   |
 
 |  `P`  |  `Q`  | `P || Q` |
