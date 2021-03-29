@@ -44,7 +44,7 @@ Comments are ignored by the compiler and are not executed when the program is ru
 
 Three types of comments in Java:
 
-- ``//` Single line comments
+- `//` Single line comments
 -  `/* `Block/multi-line comments `*/`
 - `/**`Javadoc comments (used to create API documentation)  `*/`
 
@@ -72,7 +72,7 @@ An accessor method allows other objects to obtain the value of instance variable
 
 The `toString` method is an overridden method that is included in classes to provide a description of a specific object. It generally includes what values are stored in the instance data of the object. 
 
-If `System.out.print` or `System.our.println` is passed an object, that object's `toString` method is called, and the returned string is printed.
+If `System.out.print` or `System.out.println` is passed an object, that object's `toString` method is called, and the returned string is printed.
 
 ```java
 public class MyClass {
