@@ -1,6 +1,6 @@
 # Iteration
 
-## 4.1 While Loops
+## 4.1 `WHILE` Loops
 
 Iteration statement change the flow of control by repeating a set of statements zero or more times until a condition is met. In loops, the Boolean expression is evaluated before each iteration of the loop body, including the first. When  he expression evaluates to `true`, the loop body is executed. This continues until the expression evaluates to `false`, whereupon the iteration ceases. 
 
@@ -26,7 +26,7 @@ while (Boolean b) f{
 }
 ```
 
-## 4.2 For Loops
+## 4.2 `FOR` Loops
 
 There are three parts in a `for` loop header: the initialization, the Boolean expression, and the increment. Each is separated by a semicolon (`;`). The increment statement can also be a decrement statement. In a `for` loop, the initialization is only executed once before the first Boolean expression evaluation. The variable being initialized is referred to as a loop control variable. In each iteration of a `for` loop, the increment statement is executed after the entire loop body is executed and before the boolean expression is evaluated again. A `for` loop can be written into an equivalent `while` loop and vice versa. 
 
