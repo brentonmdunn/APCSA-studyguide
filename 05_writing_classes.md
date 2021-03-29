@@ -14,7 +14,7 @@ When a mutable object is a constructor parameter, the instance variable should b
 
 When no constructor is written, Java provides a no-argument constructor, and the instance variables are set to default values.
 
-## 5.3 5.3 Documentation with Comments
+## 5.3 Documentation with Comments
 
 Comments are ignored by the compiler and are not executed when the program is run
 
@@ -62,7 +62,7 @@ Static variables belong to the class, with all objects of a class sharing a sing
 
 Local variables can be declared in the body of constructors and methods. These variables may only be sued within the constructor or method and cannot be declared to be `public` or `private`. When there is a local variable with the same name as an instance variable, the variable name will refer to the local variable instead of the instance variable. Formal parameters and variables declared in a method or constructor can only be used within that method or constructor. Through method decomposition, a programmer breaks down a large problem into smaller subproblems by creating methods to solve each individual subproblem. 
 
-## 5.9 This Keyword
+## 5.9 `THIS` Keyword
 
 Within a non-static method or constructor, the keyword `this` is a reference to the current object--the object whose method or constructor is being called. The keyword `this` can be used to pass the current object as an actual parameter in a method call. Example: 
 
