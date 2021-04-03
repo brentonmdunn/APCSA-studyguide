@@ -12,10 +12,10 @@ If the rate of the forward reaction is greater than the reverse reaction, then t
 
 ## 7.3 Reaction Quotient and Equilibrium Constant
 
-The reaction quotient $Q_c$ describes the relative concentrations of reaction species at any time. For gas phase reactions, the reactant quotient may instead be written in terms of pressures as $Q_p$. The reaction quotient tends towards the equilibrium constant such that at equilibrium, $K_c=Q_c$ and $K_p=Q_p$. As examples, for the reaction $aA+bB\rightleftharpoons cC+dD$ the equilibrium expression for ($K_c,Q_c$) is 
-$$
+The reaction quotient $`Q_c`$ describes the relative concentrations of reaction species at any time. For gas phase reactions, the reactant quotient may instead be written in terms of pressures as $Q_p$. The reaction quotient tends towards the equilibrium constant such that at equilibrium, $K_c=Q_c$ and $K_p=Q_p$. As examples, for the reaction $aA+bB\rightleftharpoons cC+dD$ the equilibrium expression for ($K_c,Q_c$) is 
+```math
 K_c=\frac{[C]^c[D]^d}{[A]^a[B]^b}
-$$
+```
 and that for ($K_p,Q_p$) is 
 $$
 K_p=\frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}
