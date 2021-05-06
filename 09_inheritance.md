@@ -200,8 +200,6 @@ public static void main(String[] args) {
 }
 ```
 
-
-
 ## 9.7 Object Superclass
 
 The `object` class is the superclass of all other objects in Java. The following are `object` class methods:

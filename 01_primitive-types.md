@@ -18,8 +18,6 @@ comment.
 */
 ```
 
-
-
 ## 1.2 Variables and Data Types
 
 Primitive types: `int`, `double`, and `boolean`
